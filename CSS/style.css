@@ -1,25 +1,70 @@
 /* you can change any of the default styles below */
 
-* {
+header {
+  position: fixed;
+  top: 0;
   margin: 0;
   padding: 0;
-  font-size: 10px;
+  font-size: 30px;
+  background-color: #E3B7B6;
+  height: auto;
+}
+.nav {
+  height: 15px;
 }
 
-nav {
+a:link {
+  color: #2A2B2A;
+}
+
+/* visited link */
+a:visited {
+  color: #E22856;
+}
+
+/* mouse over link */
+a:hover {
+  color: #E22856;
+}
+
+
+#nav {
   height: 15px;
 }
 
 main {
-  background-color: #F8F4E3
-  height: 100vh;
+  background-color: #F8F4E3;
+  height: auto;
 }
 
 p {
-  color: 2A2B2A;
-  fontsize: 1.8rem;
+  color: #2A2B2A;
+  font-size: 1.8rem;
 }
 
+
+  
+.div1 {
+  float: left;
+  padding: 10px;  
+  border: 3px solid #2A2B2A;
+}
+
+.div2 {
+  padding: 10px;
+  border: 3px solid #2A2B2A;
+  clear: left;
+}
+.divright {
+  padding: 10px;
+  border: 3px solid #2A2B2A;
+  float: right;
+}
 img {
   max-width: 400px;
+  height: auto;
+  
 }
+
+
+
